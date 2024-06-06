@@ -46,3 +46,18 @@
   display: flex;
   gap: 40px;
 }
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 60px;
+}
+
+li {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

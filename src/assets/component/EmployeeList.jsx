@@ -32,12 +32,21 @@ function EmployeeList () {
         <>
           <ul>
             {Employees.map((e) => {
-                return <EmployeeListItem name={e.Name}/>
+                return <EmployeeListItem name={e.Name} description={e.Description}/>
             })}
             
           </ul>
         </>
     )
 }
+
+
+console.log("Hello World!");
+
+
+
+
+
+
 
 export default EmployeeList

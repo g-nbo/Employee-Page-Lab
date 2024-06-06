@@ -1,13 +1,23 @@
-
+import Header from "./Header"
 function EmployeePage() {
     return (
         <>
-            
-            <div>
-            <h2>Employee</h2>
-                Julie Taylor
+
+            <div style={{textAlign: 'left'}}>
+                <Header text="Employee"/>
+                <li>
+                    <div>
+                        <img src="/avatar_icon_placeHolder.png" alt="avatar Icon" style={{width: "90px"}}/>
+                    </div>
+                    <div>
+                        Julie Taylor
+                        <br />
+                        VP of Marketing
+                    </div>
+                </li>
                 <br />
-                VP of Marketing
+
+
                 <hr />
                 Call Office
                 <br />
@@ -24,6 +34,7 @@ function EmployeePage() {
                 Email
                 <br />
                 jtaylor@fakemail.com
+                <hr />
             </div>
         </>
     )

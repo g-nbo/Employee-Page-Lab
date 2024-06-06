@@ -6,7 +6,7 @@ function Homepage() {
     return (
         <>
             <div>
-                <Header />
+                <Header text="Employee Directory"/>
                 <SearchBar />
                 <EmployeeList />
             </div>
